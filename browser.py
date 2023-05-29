@@ -50,7 +50,7 @@ class MainWindow(QMainWindow):
     def ebago(self):
         self.browser.load(QUrl("https://www.eba.gov.tr"))
     def go_home(self):
-        self.browser.load(QUrl("http://localhost/"))
+        self.browser.load(QUrl("http://piribrowser.rf.gd/"))
     def goeokul(self):
         self.browser.load(QUrl("https://e-okul.meb.gov.tr"))
 app = QApplication(sys.argv)
